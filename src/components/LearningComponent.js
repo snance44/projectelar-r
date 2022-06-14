@@ -3,7 +3,7 @@ import { Tab, Tabs, Form, Button, Card } from "react-bootstrap";
 import { CONTENTS } from "../shared/LearningContent";
 import Passage from "./PassageComponent";
 
-export function Learning() {
+export default function Learning() {
   const [contents] = useState(CONTENTS);
   const [key, setKey] = useState("introduction");
 
