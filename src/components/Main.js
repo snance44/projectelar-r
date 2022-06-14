@@ -17,6 +17,7 @@ export default class Main extends React.Component {
             <Route path="/projectelar-r/learning" element={<Learning />} />
             <Route path="/projectelar-r/aboutus" element={<AboutUs />} />
             <Route path="/projectelar-r/*" element={<HomeCarousel />} />
+            <Route path="/*" element={<HomeCarousel />} />
           </Routes>
         </BrowserRouter>
         <Footer />
