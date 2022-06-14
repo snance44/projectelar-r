@@ -1,38 +1,80 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: var(--med-light-color);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  position:relative;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+.content-wrap{
+  padding-bottom:2.5rem
+}
+
+
+
+:root {
+  --dark-color: #141E27;
+  --dark-med-color: #2C454E;
+  --med-color: #7F95D1;
+  --med-light-color: #D2D5DD;
+  --light-color: #E8EBE4;
+}
+.textdark{
+  color: var(--dark-med-color);
+}
+
+.backg-dark{
+  background-color: var(--dark-color);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.backg-darkmed{
+  background-color: var(--dark-med-color) !important;
+  color: white;
+}
+.car{
+  border-radius: 15px;
+}
+.car-caption{
+  background-color: rgba(44, 69, 78, .4);
+  max-width: 600px;
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jumbo{
+  margin:0;
+  padding:30px;
+  background: linear-gradient(to top, #141E27 0%,#2c4d4e  100%);
+  color: white;
+  font-size: x-large;
 }
+.logo-header{
+  max-width: 7rem;
+}
+.navbartext{
+  font-size: larger;
+}
+.logo-navbar{
+  max-width: 2.5rem;
+}
+
+.footer-body{
+  background-color: var(--med-color);
+  color: var(--light-color);
+  text-align: center;
+  font-size: 1.2 em;
+}
+.learning{
+  background-color: white;
+}
+
+
+.learningimage{
+  border: 3px solid black;
+  max-width: 250px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
