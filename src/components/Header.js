@@ -39,9 +39,23 @@ export default function Header() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/projectelar-r/"> Home </Nav.Link>
-              <Nav.Link href="/projectelar-r/learning"> Learn </Nav.Link>
-              <Nav.Link href="/projectelar-r/aboutus"> About </Nav.Link>
+              <Nav.Link href="/projectelar-r/" to="/projectelar-r/">
+                Home
+              </Nav.Link>
+              <Nav.Link
+                href="/projectelar-r/learning"
+                to="/projectelar-r/learning"
+              >
+                {" "}
+                Learn{" "}
+              </Nav.Link>
+              <Nav.Link
+                href="/projectelar-r/aboutus"
+                to="/projectelar-r/aboutus"
+              >
+                {" "}
+                About{" "}
+              </Nav.Link>
             </Nav>
             <span>
               <Button
