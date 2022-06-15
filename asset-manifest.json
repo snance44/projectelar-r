@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "/projectelar-r/static/css/main.a51c56ea.css",
-    "main.js": "/projectelar-r/static/js/main.11497009.js",
-    "static/js/787.0ae444e2.chunk.js": "/projectelar-r/static/js/787.0ae444e2.chunk.js",
+    "main.js": "/projectelar-r/static/js/main.0b88780e.js",
     "index.html": "/projectelar-r/index.html",
     "main.a51c56ea.css.map": "/projectelar-r/static/css/main.a51c56ea.css.map",
-    "main.11497009.js.map": "/projectelar-r/static/js/main.11497009.js.map",
-    "787.0ae444e2.chunk.js.map": "/projectelar-r/static/js/787.0ae444e2.chunk.js.map"
+    "main.0b88780e.js.map": "/projectelar-r/static/js/main.0b88780e.js.map"
   },
   "entrypoints": [
     "static/css/main.a51c56ea.css",
-    "static/js/main.11497009.js"
+    "static/js/main.0b88780e.js"
   ]
 }
