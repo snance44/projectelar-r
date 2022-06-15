@@ -15,7 +15,7 @@ export default function Header() {
       <div className="p-5 text-white fluid jumbo">
         <h1>
           <img
-            src={"../assets/images/logoc.jpg"}
+            src={"./assets/images/logoc.jpg"}
             className="logo-header"
             alt="logo book"
           />{" "}
@@ -31,7 +31,7 @@ export default function Header() {
         <Container>
           <Navbar.Brand href="/projectelar-r/">
             <img
-              src={"../assets/images/logoc.jpg"}
+              src={"./assets/images/logoc.jpg"}
               alt="book logo"
               className="logo-navbar"
             />

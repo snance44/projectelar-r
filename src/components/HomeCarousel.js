@@ -10,7 +10,7 @@ export default class HomeCarousel extends React.Component {
             <img
               style={{ "max-width": "900px" }}
               className="d-block w-100 car"
-              src={"../assets/images/student1.jpg"}
+              src={"./assets/images/student1.jpg"}
               alt="Student studying"
             />
             <Carousel.Caption className="car-caption">
@@ -21,7 +21,7 @@ export default class HomeCarousel extends React.Component {
             <img
               style={{ "max-width": "900px" }}
               className="d-block w-100 car"
-              src={"../assets/images/student2.jpg"}
+              src={"./assets/images/student2.jpg"}
               alt="Student studying"
             />
 
@@ -34,7 +34,7 @@ export default class HomeCarousel extends React.Component {
             <img
               style={{ "max-width": "900px" }}
               className="d-block w-100 car"
-              src={"../assets/images/student3.jpg"}
+              src={"./assets/images/student3.jpg"}
               alt="Student studying"
             />
 
