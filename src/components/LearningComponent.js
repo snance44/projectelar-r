@@ -12,7 +12,7 @@ export default function Learning() {
       <div className="row">
         <div className="col-lg-4">
           <img
-            src="../assets/images/balloon.jpg"
+            src="./assets/images/balloon.jpg"
             alt="Balloon in sky"
             className=" m-3 m-lg-1 learningimage text-center"
           />
