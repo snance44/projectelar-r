@@ -1,73 +1,69 @@
 .App {
   background-color: var(--med-light-color);
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  position:relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
   min-height: 100vh;
-
 }
-.content-wrap{
-  padding-bottom:2.5rem
+.content-wrap {
+  padding-bottom: 2.5rem;
 }
-
-
 
 :root {
-  --dark-color: #141E27;
-  --dark-med-color: #2C454E;
-  --med-color: #7F95D1;
-  --med-light-color: #D2D5DD;
-  --light-color: #E8EBE4;
+  --dark-color: #141e27;
+  --dark-med-color: #2c454e;
+  --med-color: #7f95d1;
+  --med-light-color: #d2d5dd;
+  --light-color: #e8ebe4;
 }
-.textdark{
+.textdark {
   color: var(--dark-med-color);
 }
 
-.backg-dark{
+.backg-dark {
   background-color: var(--dark-color);
   color: white;
 }
-.backg-darkmed{
+.backg-darkmed {
   background-color: var(--dark-med-color) !important;
   color: white;
 }
-.car{
+.car {
   border-radius: 15px;
 }
-.car-caption{
-  background-color: rgba(44, 69, 78, .4);
+.car-caption {
+  background-color: rgba(44, 69, 78, 0.4);
   max-width: 600px;
   border-radius: 15px;
 }
 
-.jumbo{
-  margin:0;
-  padding:30px;
-  background: linear-gradient(to top, #141E27 0%,#2c4d4e  100%);
+.jumbo {
+  margin: 0;
+  padding: 30px;
+  background: linear-gradient(to top, #141e27 0%, #2c4d4e 100%);
   color: white;
   font-size: x-large;
 }
-.logo-header{
+.logo-header {
   max-width: 7rem;
 }
-.navbartext{
+.navbartext {
   font-size: larger;
 }
-.logo-navbar{
+.logo-navbar {
   max-width: 2.5rem;
 }
 
-.footer-body{
+.footer-body {
   background-color: var(--med-color);
   color: var(--light-color);
   text-align: center;
   font-size: 1.2 em;
 }
-.learning{
+.learning {
   background-color: white;
 }
 
-
-.learningimage{
+.learningimage {
   border: 3px solid black;
   max-width: 250px;
 }
@@ -78,3 +74,12 @@
   width: 50%;
 }
 
+.headerlink {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.headerlink:hover {
+  color: var(--med-color);
+}
